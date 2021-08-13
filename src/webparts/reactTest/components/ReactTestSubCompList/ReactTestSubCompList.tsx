@@ -36,7 +36,7 @@ export class ReactTestSubCompList extends React.Component<IReactTestSubCompListP
                     <Toggle 
                          label='Show all or filtered entries?'
                          onText='show all entries'
-                         offText='show selected entries'
+                         offText='show selected entries only'
                          checked={this.state.showAllSubCompTables}
                          onChanged={this.onPickerToggleChanged}
                     />
